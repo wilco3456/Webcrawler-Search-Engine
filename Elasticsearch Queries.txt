@@ -1,0 +1,154 @@
+1
+{
+  "query": {
+    "match": {
+      "UCAS_code": "t710"
+    }
+  }
+}
+
+2
+{
+  "query": {
+    "match": {
+      "entry-requirements": {
+        "query": "bbb a levels",
+        "operator": "and"
+      }
+    }
+  }
+}
+
+3
+{
+  "query": {
+    "match_phrase_prefix": {
+      "Course": "bio"
+    }
+  }
+}
+
+4
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match_phrase": {
+          "Duration": "3"
+        }
+      },
+      "filter": {
+        "term": {
+          "Location": "southend"
+        }
+      }
+    }
+  }
+}
+
+5
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match_phrase": {
+          "Course": "computer"
+        }
+      },
+      "filter": {
+        "range": {
+          "fees-and-funding": {
+            "gte": 4000,
+            "lte": 5000
+          }
+        }
+      }
+    }
+  }
+}
+
+6
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match_phrase": {
+          "title": "msc"
+        }
+      },
+      "filter": {
+        "range": {
+          "Duration": {
+            "gte": 2,
+            "lte": 3
+          }
+        }
+      }
+    }
+  }
+}
+
+7
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match": {
+          "entry-requirements": {
+            "query": "chemistry biology mathematics",
+            "operator": "or"
+          }
+        }
+      },
+      "filter": {
+        "term": {
+          "Start_date": "september"
+        }
+      }
+    }
+  }
+}
+
+8
+{
+  "query": {
+    "multi_match": {
+      "query": "computer science",
+      "operator": "and",
+      "fields": [
+        "Course",
+        "title"
+      ]
+    }
+  }
+}
+
+9
+{
+  "query": {
+    "match": {
+      "Location": {
+        "query": "(east15 loughton)",
+        "operator": "and"
+      }
+    }
+  }
+}
+
+10
+{
+  "query": {
+    "bool": {
+      "must": {
+        "term": {
+          "Duration": "months"
+        }
+      },
+      "must_not": {
+        "term": {
+          "Duration": "years"
+        }
+      }
+    }
+  }
+}
