@@ -6,7 +6,7 @@
 ## Platform Recommendation:
 * This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.7, Elasticsearch 6.6.2 & Kibana 6.6.2, Other systems have not been tested, and it is advised to have caution with untested OS.
 
-Python Library Dependencies 
+## Python Library Dependencies 
 * Nltk 
 * Scrapy
 * Pywin32
@@ -26,6 +26,7 @@ Python Library Dependencies
     * Elasticsearch 
   * Run the python program on the command line, using the following command: 
     * python webcrawler_search.py 
+    **NOTE: This program may take a while to complete its execution**
 
 * How to add the *finderspider_index* and the *evaluation_index* index patterns to Kibana: 
   * Visit the [Kibana Server](http://localhost:5601) URL
