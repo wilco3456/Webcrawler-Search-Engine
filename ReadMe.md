@@ -16,9 +16,9 @@ Python Library Dependencies
 * How to scrape and index the courses offered by The University of Essex: 
   * Download and install Kibana 
   * Download and install Elasticsearch  
-  * Run the *kibana.bat* file stored the *C:/kibana/bin* path 
-  * Check whether kibana is running with the URL *http://localhost:5601* 
-  * Check whether Elasticsearch is running with the URL *http://localhost:9200* 
+  * Run the *kibana.bat* file stored in the *C:/kibana/bin* path 
+  * Check whether the [Kibana Server](http://localhost:5601) is running with the URL
+  * Check whether the [Elasticsearch Server](http://localhost:9200) is running with the URL 
   * Using the python *pip installer*, install the following modules: 
     * Nltk 
     * Scrapy 
@@ -28,14 +28,14 @@ Python Library Dependencies
     * python webcrawler_search.py 
 
 * How to add the *finderspider_index* and the *evaluation_index* index patterns to Kibana: 
-  * Type in the URL *http://localhost:5601*  
+  * Click the [Kibana Server](http://localhost:5601) URL
   * Locate the sidebar and click on management  
   * Under Kibana, click on Index Patterns  
   * Then click on the *create index pattern* button  
   * Type the name of the indices one by one, making sure to follow the next step procedure; Till both index patterns have been created. 
   
 * How to add queries onto the Kibana discover page:  
-  * Type in the URL *http://localhost:5601*
+  * Click the [Kibana Server](http://localhost:5601) URL
   * Locate the sidebar and click on discover 
   * Click on the *Add a filter +* button, within the filter bar 
   * In the small overlay that pops up, click on the *Edit Query DSL* button 
