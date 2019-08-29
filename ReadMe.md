@@ -4,7 +4,7 @@
 
 
 ## Platform Recommendation:
-* This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.7, Other systems have not been tested, and it is advised to have caution with untested OS.
+* This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.7, Elasticsearch 6.6.2 & Kibana 6.6.2, Other systems have not been tested, and it is advised to have caution with untested OS.
 
 Python Library Dependencies 
 * Nltk 
@@ -28,14 +28,14 @@ Python Library Dependencies
     * python webcrawler_search.py 
 
 * How to add the *finderspider_index* and the *evaluation_index* index patterns to Kibana: 
-  * Click the [Kibana Server](http://localhost:5601) URL
+  * Visit the [Kibana Server](http://localhost:5601) URL
   * Locate the sidebar and click on management  
   * Under Kibana, click on Index Patterns  
   * Then click on the *create index pattern* button  
   * Type the name of the indices one by one, making sure to follow the next step procedure; Till both index patterns have been created. 
   
 * How to add queries onto the Kibana discover page:  
-  * Click the [Kibana Server](http://localhost:5601) URL
+  * Visit the [Kibana Server](http://localhost:5601) URL
   * Locate the sidebar and click on discover 
   * Click on the *Add a filter +* button, within the filter bar 
   * In the small overlay that pops up, click on the *Edit Query DSL* button 
