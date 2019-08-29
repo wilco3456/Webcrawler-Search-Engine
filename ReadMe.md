@@ -4,16 +4,17 @@
 For this program, I made the decision to extract the useful course data stored within the University of Essex's website. Located in paths under the [University of Essex Courses](https://www.essex.ac.uk/courses/) domain URL. Giving users the ability to extensively search course information, using robust Elasticsearch query strings.  
 ![data_overview](/Images/data_overview.png)
 
-## Platform Recommendation:
+## Platform Recommendation
 * This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.7, Elasticsearch version 6.6.2 & Kibana version 6.6.2, Other systems have not been tested, and it is advised to have caution with untested OS.
 
-## Python Library Dependencies 
+## Software Requirements
+### Library Dependencies:
 * Nltk 
 * Scrapy
 * Pywin32
 * Elasticsearch
 
-## How to use the Program:
+## How to use the Program
 * How to scrape and index the courses offered by The University of Essex: 
   * Download and install Kibana 
   * Download and install Elasticsearch  
