@@ -5,7 +5,7 @@ For this program, I made the decision to extract the useful course data stored w
 ![data_overview](/Images/data_overview.png)
 
 ## Platform Recommendation
-* This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.7, Elasticsearch version 6.6.2 & Kibana version 6.6.2, Other systems have not been tested, and it is advised to have caution with untested OS.
+* This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.5+, Elasticsearch version 6.6.2 & Kibana version 6.6.2, Other systems have not been tested, and it is advised to have caution with untested OS.
 
 ## Software Requirements
 ### Python Distributions:
