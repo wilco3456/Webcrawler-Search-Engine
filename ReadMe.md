@@ -1,6 +1,6 @@
 # Webcrawler Search Engine (Elasticsearch Kibana)
 
-## Search Engine Data Source Overview
+## Search Engine Datasource Overview
 For this program, I made the decision to extract the useful course data stored within the University of Essex's website. Located in paths under the [University of Essex Courses](https://www.essex.ac.uk/courses/) domain URL. Giving users the ability to extensively search course information, using robust Elasticsearch query strings.  
 ![data_overview](/Images/data_overview.png)
 
